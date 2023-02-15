@@ -1,4 +1,4 @@
-const menuToggle = () => {
+const setMenuToggle = () => {
     const toggleMenuButton = document.querySelector('.toggle-menu-button');
     const mainMenu = document.querySelector('#main-menu');
     
@@ -20,4 +20,4 @@ const menuToggle = () => {
         }
     });
 }
-menuToggle();
+setMenuToggle();
