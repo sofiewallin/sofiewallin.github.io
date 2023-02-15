@@ -1,0 +1,42 @@
+.project-images {
+    display: none;
+    max-width: 536px;
+    width: 100%;
+}
+
+.project-images.fancybox__content {
+    padding: 8px;
+}
+
+.project-images figure {
+    margin-top: 8px;
+    width: 100%;
+}
+
+.project-images .first-image {
+    margin-top: 0;
+}
+
+.project-images .project-logo {
+    background-color: #f5f5f5;
+    display: flex;
+    height: 160px;
+    justify-content: center;
+    padding: 32px;
+    position: relative;
+    text-align: center;
+}
+
+.project-images .project-logo img {
+    max-width: 240px;
+}
+
+@media only screen and (min-width:768px) {
+    .project-images.fancybox__content {
+        padding: 16px;
+    }
+
+    .project-images figure {
+        margin-top: 16px;
+    }
+}
